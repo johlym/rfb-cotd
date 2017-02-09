@@ -2,9 +2,9 @@ import React from 'react';
 
 class Inventory extends React.Component {
   render() {
-    return {
+    return (
       <p>Inventory</p>
-    }
+    )
   }
 }
 
