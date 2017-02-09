@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = (props) => {
   return (
-    <Header className="top">
+    <header className="top">
       <h1>
         Catch
         <span className="ofThe">
@@ -12,9 +12,8 @@ const Header = (props) => {
         Day
       </h1>
       <h3 className="tagline"><span>{props.tagline}</span></h3>
-    </Header>
+    </header>
   )
 }
-
 
 export default Header;
