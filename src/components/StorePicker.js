@@ -11,9 +11,9 @@ class StorePicker extends React.Component {
     console.log('You changes the URL');
     // first grab the test from the box
     const storeId = this.storeInput.value
-    console.log('Going to ${storeId}')
+    console.log(`Going to ${storeId}`)
     // second we're going to transition from / to /store/:storeId
-    this.context.router.transitionTo('/store/${storeId}');
+    this.context.router.transitionTo(`/store/${storeId}`);
   }
 
   render() {
